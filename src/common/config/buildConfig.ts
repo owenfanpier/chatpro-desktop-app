@@ -21,14 +21,13 @@ import type {BuildConfig} from 'types/config';
  * @prop {[]} allowedProtocols - Defines which protocols should be automatically allowed
  */
 const buildConfig: BuildConfig = {
-    defaultServers: [/*
+    defaultServers: [
     {
-      name: 'example',
-      url: 'https://example.com'
-    }
-  */],
-    helpLink: 'https://docs.mattermost.com/messaging/managing-desktop-app-servers.html',
-    enableServerManagement: true,
+      name: 'ChatPro',
+      url: 'https://meet.chatpro.law'
+    }],
+    helpLink: 'https://chatpro.law/help',
+    enableServerManagement: false,
     enableAutoUpdater: true,
     managedResources: ['trusted'],
     allowedProtocols: [
