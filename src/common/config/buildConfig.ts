@@ -22,10 +22,10 @@ import type {BuildConfig} from 'types/config';
  */
 const buildConfig: BuildConfig = {
     defaultServers: [
-    {
-      name: 'ChatPro',
-      url: 'https://meet.chatpro.law'
-    }],
+        {
+            name: 'ChatPro',
+            url: 'https://meet.chatpro.law',
+        }],
     helpLink: 'https://chatpro.law/help',
     enableServerManagement: false,
     enableAutoUpdater: true,

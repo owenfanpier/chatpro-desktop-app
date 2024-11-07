@@ -18,8 +18,8 @@ index 2d5cd3c..92a0556 100644
  
 +    <util:CloseApplication
 +      Id="closeApplication"
-+      Description="Mattermost is still running. Please ensure to manually close before continuing installation."
-+      Target="Mattermost.exe"
++      Description="ChatPro is still running. Please ensure to manually close before continuing installation."
++      Target="ChatPro.exe"
 +      RebootPrompt="no"
 +      PromptToContinue="yes"
 +    />

@@ -5,15 +5,15 @@ THIS_PATH=`readlink -f $0`
 cd `dirname ${THIS_PATH}`
 FULL_PATH=`pwd`
 cd ${WORKING_DIR}
-cat <<EOS > Mattermost.desktop
+cat <<EOS > Chatpro.desktop
 [Desktop Entry]
-Name=Mattermost
-Comment=Mattermost Desktop application for Linux
-Exec="${FULL_PATH}/mattermost-desktop" %U
+Name=ChatPro
+Comment=ChatPro Desktop application for Linux
+Exec="${FULL_PATH}/chatpro-desktop" %U
 Terminal=false
 Type=Application
 MimeType=x-scheme-handler/mattermost
 Icon=${FULL_PATH}/app_icon.png
 Categories=Network;InstantMessaging;
 EOS
-chmod +x Mattermost.desktop
+chmod +x Chatpro.desktop

@@ -1,13 +1,13 @@
 {
-  "name": "mattermost-desktop",
-  "productName": "Mattermost",
-  "version": "5.9.0",
-  "description": "Mattermost",
+  "name": "chatpro-desktop",
+  "productName": "ChatPro",
+  "version": "1.0.0",
+  "description": "ChatPro",
   "main": "dist/index.js",
-  "author": "Mattermost, Inc. <feedback@mattermost.com>",
+  "author": "Rain Computing",
   "license": "Apache-2.0",
-  "desktopName": "Mattermost.Desktop",
-  "homepage": "https://mattermost.com",
+  "desktopName": "ChatPro.Desktop",
+  "homepage": "https://chatpro.law",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -134,6 +134,7 @@
     "electron": "31.2.1",
     "electron-builder": "24.13.3",
     "electron-connect": "0.6.3",
+    "electron-rebuild": "^3.2.9",
     "eslint": "8.57.0",
     "eslint-import-resolver-webpack": "0.13.8",
     "eslint-plugin-formatjs": "4.12.2",

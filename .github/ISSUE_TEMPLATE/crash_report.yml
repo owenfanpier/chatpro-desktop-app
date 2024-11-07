@@ -1,5 +1,5 @@
 name: Crash report
-description: Create a report about a crash you experienced while using the Mattermost Desktop App
+description: Create a report about a crash you experienced while using the ChatPro Desktop App
 title: "[Crash]: "
 labels: "Type/Crash Report"
 body:

@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a report about an issue you found in the Mattermost Desktop App
+description: Create a report about an issue you found in the ChatPro Desktop App
 title: "[Bug]: "
 labels: "Type/Bug"
 body:
