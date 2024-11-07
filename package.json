@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "author": "Rain Computing",
   "license": "Apache-2.0",
+  "email": "support@chatpro.law",
   "desktopName": "ChatPro.Desktop",
   "homepage": "https://chatpro.law",
   "engines": {
