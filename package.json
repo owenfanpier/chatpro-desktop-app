@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "ChatPro",
   "main": "dist/index.js",
-  "author": "Rain Computing",
+  "author": "Rain Computing <support@chatpro.law> (https://raincomputing.net/)",
   "license": "Apache-2.0",
   "email": "support@chatpro.law",
   "desktopName": "ChatPro.Desktop",
